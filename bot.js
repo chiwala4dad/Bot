@@ -9,7 +9,7 @@ client.on('message', message => {
     if (message.content === 'ping') {
     	message.reply('pong');
   	}
-    else if (message.content === "!trump") {
+    else if (message.content === "pp.") {
 
        // make sure the user is in a voice channel
        if (message.member.voiceChannel) {
