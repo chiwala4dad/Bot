@@ -11,14 +11,7 @@ client.on('ready', () => {
 client.on('message', message => {
     if (message.content === 'ping') {
     	message.reply('fuck me pussy boy');
-  	} else if (message.content === 'pp') {
-         voiceChannel.join().then(connection => {
-
-        connection.playFile("./data/" + randAudioFile).on("end", () => {
-            connection.disconnect();
-            voiceChannel.leave();
-        });
-
+  	} 
 });
 
 // THIS  MUST  BE  THIS  WAY
